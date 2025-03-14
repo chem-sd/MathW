@@ -1,0 +1,110 @@
+body {
+    font-family: "Avenir Next";
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: aqua;
+    color: #2a5281;
+}
+
+
+
+.l1 {
+    float: left;
+    width: 20%;
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+.detail {
+    padding-bottom: 20px;
+}
+
+.questions p{
+    display: inline;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    min-width: 50%;
+    background-color: rgba(110, 105, 105, 0.3);
+    color: #000000;
+}
+
+.questions ul {
+    border: solid;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+
+
+.main {
+    padding: 0 20px 0 20px;
+}
+
+.hidden_box {
+    margin: 50px 0;
+    padding: 10px;
+    text-align: center;
+    text-align: left;
+    
+}
+
+.hidden_box label {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    min-width: 50%;
+    background-color: rgba(110, 105, 105, 0.3);
+    color: #000000;
+}
+
+.hidden_box label:hover {
+    background: #f5f5f5;
+}
+
+.hidden_box label:after {
+    content: "を表示";	/* 閉じている状態のときにラベルの後ろに続く文字 */
+}
+
+.hidden_box input {
+    display: none;
+}
+
+.hidden_box .hidden_show {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0;
+    text-align: left;
+    transition: 0.5s;
+}
+
+.hidden_box input:checked + label:after {
+    content: "を非表示";	/* 開いている状態のときにラベルの後ろに続く文字 */
+}
+
+.hidden_box input:checked ~ .hidden_show {
+    height: auto;
+    opacity: 1;
+}
+
+.hidden_show {
+    border: solid;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+
