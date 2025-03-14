@@ -9,7 +9,6 @@ li {
 
 header {
     background-color: rgba(135, 217, 255, 0.51);
-    color: #0a2a50;
     height: 60px;
 }
 
@@ -23,182 +22,93 @@ header a {
     color: #0a2a50;
 }
 
+
+.l1 {
+    float: left;
+    width: 20%;
+}
+
 ul li {
-    padding-bottom: 10px;
+    padding: 20px;
 }
 
-.questions {
-    margin: 100px 0;
+
+
+.detail {
+    display: block;
+    padding-bottom: 20px;
 }
 
-.subtitle {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-weight: bold;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: rgba(110, 105, 105, 0.3);
-    color: #000000;
+h2 {
     display: inline-block;
-    margin-bottom: 15px;
-}
-
-.inside_q {
-    border: solid;
+    border: 2px solid;
+    padding: 8px;
     border-radius: 5px;
-    padding: 0 10px;
-}
-
-.hidden_box {
-    margin-bottom: 50px;
-    padding: 0;
-    text-align: left;
-    
-}
-
-.hidden_box label {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: rgba(110, 105, 105, 0.3);
-    color: #000000;
-    display: inline-block
-}
-
-.hidden_box label:hover {
-    background: #f5f5f5;
-}
-
-.hidden_box label:after {
-    content: "を表示";	/* 閉じている状態のときにラベルの後ろに続く文字 */
-}
-
-.hidden_box input {
-    display: none;
-}
-
-.hidden_box .hidden_show {
-    height: 0;
-    overflow: hidden;
-    opacity: 0;
-    text-align: left;
-    transition: 0.5s;
-    padding: 0 10px;
-}
-
-.hidden_box input:checked + label:after {
-    content: "を非表示";	/* 開いている状態のときにラベルの後ろに続く文字 */
-}
-
-.hidden_box input:checked ~ .hidden_show {
-    height: auto;
-    opacity: 1;
-}
-
-.hidden_show {
-    border: solid;
-    border-radius: 5px;
-    padding-top: 10px;
-    margin-top: 15px;
+    clear: both;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
 }
 
 .container {
     width: 90%;
     margin: auto;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .main {
-    width: 80%;
-    padding-right:  30px;
+    width: 100%;
+    padding: 10px;
 }
 
-.side {
-    width:20%;
-}
 
-.index {
-    border: 1px solid;
-    padding: 5px;
-    margin-top: 25px;
+
+.content:hover {
+    background-color: rgba(130, 130, 130, 0.09);
 }
 
 details {
-    border: 1px solid;
-    background-color: #bef4ff;
-    padding: 0 10% 0 10%;
-}
-
-.index p {
-    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #a3a3a3;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 summary {
-    padding: 10px 0 10px 0;
-}
-
-details:hover {
-    background-color: azure;
-}
-
-.select:hover {
-    background-color: #bef4ff;
-}
-
-.select {
-    display: block;
-    color: black;
-    text-decoration: none;
-}
-
-.bottom_select {
-    margin-bottom: 4px;
-}
-
-.index p {
-    margin: 5px;
-}
-
-.ba {
-    background-color: rgba(135, 217, 255, 0.51);
+    cursor: pointer;
     padding: 10px;
-    border-radius: 5px;
-    color: black;
-    text-decoration: none;
     font-weight: bold;
-    
+    background-color: rgba(135, 217, 255, 0.3);
+    border-bottom: 1px solid #000000;
 }
 
-.ba:hover {
-    background-color: rgba(84, 154, 253, 0.79);
+
+.content a {
+    display: inline-block;
+    padding: 4px;
+    color: black;
 }
 
-.befor {
-    float: left;
+.content a:hover {
+    background-color: rgba(143, 225, 245, 0.31);
 }
 
-.after {
-    float: right;
+.about {
+    margin-bottom: 50px;
 }
 
-.main_bottom {
-    border-top: 1px solid rgba(0, 0, 0, 0.51);
-    margin: 50px 0 200px 0;
-    padding: 10px 0;
+.profile {
+    margin-bottom: 50px;
 }
 
-.a ul {
-    overflow-x: auto;  /* 横スクロールを有効にする */
-    white-space: nowrap;  /* 数式が折り返されるのを防ぐ */
-    max-width: 100%;  /* 画面幅に収まるようにする */
+.contents {
+    margin-bottom: 50px;
 }
 
 .ask {
-    clear: both;
     width: 50%;
     margin: 30px auto;
     padding: 20px;
@@ -232,13 +142,16 @@ details:hover {
     background: #292929;
 }
 
-.foot {
-    width: 90%;
-    margin: auto;
+.contents > div {
     display: flex;
-    justify-content: space-between;
-
-    margin-bottom: 50px;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content {
+    width: 25%;
+    margin: 10px;
+    text-align: center;
 }
 
 .icon {
@@ -246,10 +159,14 @@ details:hover {
     margin: 5px;
 }
 
+
+
+
+
 footer {
     background-color: rgba(0, 0, 0, 0.78);
     color: white;
-    padding: 20px;
+    padding: 25px;
 }
 
 .title {
@@ -258,4 +175,3 @@ footer {
     display: block;
     margin: 0;
 }
-
