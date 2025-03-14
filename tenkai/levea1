@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Math Box</h1>
+        </header>
+        <div class="main">
+           <h1>展開(Level 1)</h1>
+           <p class="detail">\((a+b)^2\) 型の展開</p>
+            <div class="contents">
+              <div class="questions">
+                   <p>問題</p>
+                    <ul>
+                        <li>(1) \((x+1)(x+2)\)</li>
+                        <li>(2) \((x+1)(x+2)\)</li>
+                        <li>(3) \((x+1)(x+2)\)</li>
+                        <li>(4) \((x+1)(x+2)\)</li>
+                        <li>(5) \((x+1)(x+2)\)</li>
+                        <li>(6) \((x+1)(x+2)\)</li>
+                        <li>(7) \((x+1)(x+2)\)</li>
+                        <li>(8) \((x+1)(x+2)\)</li>
+                        <li>(9) \((x+1)(x+2)\)</li>
+                        <li>(10) \((x+1)(x+2)\)</li>
+                    </ul>
+                </div>
+                
+                <div class="hidden_box">
+                    <input type="checkbox" id="labelX"/> <!-- Xを任意の数字に変更 -->
+                    <label for="labelX">解答</label> <!-- Xを上記と同じ数字に変更 -->
+                    <div class="hidden_show">
+                    <ul>
+                            <li>(1) \((x+1)(x+2)\)</li>
+                            <li>(2) \((x+1)(x+2)\)</li>
+                            <li>(3) \((x+1)(x+2)\)</li>
+                            <li>(4) \((x+1)(x+2)\)</li>
+                            <li>(5) \((x+1)(x+2)\)</li>
+                            <li>(6) \((x+1)(x+2)\)</li>
+                            <li>(7) \((x+1)(x+2)\)</li>
+                            <li>(8) \((x+1)(x+2)\)</li>
+                            <li>(9) \((x+1)(x+2)\)</li>
+                            <li>(10) \((x+1)(x+2)\)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
