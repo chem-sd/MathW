@@ -7,9 +7,16 @@ li {
 }
 
 header {
-    background-color: aqua;
-    color: #2a5281;
+    background-color: rgba(135, 217, 255, 0.51);
+    color: #0a2a50;
+    height: 60px;
 }
+
+header h1 {
+    margin: 0 0 0 20px;
+    line-height: 60px;
+}
+
 
 
 
