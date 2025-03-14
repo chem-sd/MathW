@@ -1,1 +1,262 @@
+body {
+    font-family: "Avenir Next";
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: rgba(135, 217, 255, 0.51);
+    color: #0a2a50;
+    height: 60px;
+}
+
+header h1 {
+    margin: 0 0 0 20px;
+    line-height: 60px;
+}
+
+header a {
+    text-decoration: none;
+    color: #0a2a50;
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+.questions {
+    margin: 100px 0;
+}
+
+.subtitle {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(110, 105, 105, 0.3);
+    color: #000000;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.inside_q {
+    border: solid;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.hidden_box {
+    margin-bottom: 50px;
+    padding: 0;
+    text-align: left;
+    
+}
+
+.hidden_box label {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(110, 105, 105, 0.3);
+    color: #000000;
+    display: inline-block
+}
+
+.hidden_box label:hover {
+    background: #f5f5f5;
+}
+
+.hidden_box label:after {
+    content: "を表示";	/* 閉じている状態のときにラベルの後ろに続く文字 */
+}
+
+.hidden_box input {
+    display: none;
+}
+
+.hidden_box .hidden_show {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    text-align: left;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+
+.hidden_box input:checked + label:after {
+    content: "を非表示";	/* 開いている状態のときにラベルの後ろに続く文字 */
+}
+
+.hidden_box input:checked ~ .hidden_show {
+    height: auto;
+    opacity: 1;
+}
+
+.hidden_show {
+    border: solid;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 80%;
+    padding-right:  30px;
+}
+
+.side {
+    width:20%;
+}
+
+.index {
+    border: 1px solid;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+details {
+    border: 1px solid;
+    background-color: #bef4ff;
+    padding: 0 10% 0 10%;
+}
+
+.index p {
+    font-weight: bold;
+}
+
+summary {
+    padding: 10px 0 10px 0;
+}
+
+details:hover {
+    background-color: azure;
+}
+
+.select:hover {
+    background-color: #bef4ff;
+}
+
+.select {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.bottom_select {
+    margin-bottom: 4px;
+}
+
+.index p {
+    margin: 5px;
+}
+
+.ba {
+    background-color: rgba(135, 217, 255, 0.51);
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.ba:hover {
+    background-color: rgba(84, 154, 253, 0.79);
+}
+
+.befor {
+    float: left;
+}
+
+.after {
+    float: right;
+}
+
+.main_bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.51);
+    margin: 50px 0 200px 0;
+    padding: 10px 0;
+}
+
+.a ul {
+    overflow-x: auto;  /* 横スクロールを有効にする */
+    white-space: nowrap;  /* 数式が折り返されるのを防ぐ */
+    max-width: 100%;  /* 画面幅に収まるようにする */
+}
+
+.ask {
+    clear: both;
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.ask input,
+.ask textarea {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.ask button {
+    display: block;
+    width: 80%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.57);
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.ask button:hover {
+    background: #292929;
+}
+
+.foot {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.icon {
+    width: 30px;
+    margin: 5px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.78);
+    color: white;
+    padding: 20px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+}
+
 
