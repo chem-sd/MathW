@@ -27,6 +27,32 @@ ul li {
     padding-bottom: 10px;
 }
 
+.fomula {
+    margin: 0;
+}
+
+.subtitle_f {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(110, 105, 105, 0.3);
+    color: #000000;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.inside_f {
+    border: solid;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.explanation img {
+    width: 400px;
+}
+
 .questions {
     margin: 100px 0;
 }
@@ -57,7 +83,7 @@ ul li {
     margin-bottom: 50px;
     padding: 0;
     text-align: left;
-    
+
 }
 
 .hidden_box label {
@@ -175,7 +201,7 @@ details:hover {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    
+
 }
 
 .ba:hover {
@@ -203,8 +229,7 @@ details:hover {
 }
 
 .ask {
-    clear: both;
-    width: 50%;
+    width: 70%;
     margin: 30px auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -212,29 +237,20 @@ details:hover {
     background: #f9f9f9;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
-.ask input,
-.ask textarea {
-    width: 80%;
+
+.form {
+    width: 100%;
+}
+
+h2 {
+    display: inline-block;
+    border: 2px solid;
     padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
-.ask button {
-    display: block;
-    width: 80%;
-    margin-top: 15px;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 0.57);
-    color: #ffffff;
-    font-size: 16px;
-    cursor: pointer;
-}
-.ask button:hover {
-    background: #292929;
+    border-radius: 5px;
+    clear: both;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
 }
 
 .foot {
@@ -263,4 +279,3 @@ footer {
     display: block;
     margin: 0;
 }
-
