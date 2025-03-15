@@ -157,6 +157,7 @@ details {
     border: 1px solid;
     background-color: #bef4ff;
     padding: 0 10% 0 10%;
+    cursor: pointer;
 }
 
 .index p {
