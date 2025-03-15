@@ -1,1 +1,3 @@
-<?php echo $_POST["confirm"]; ?>
+<body>
+        <?php echo $_POST["your-name"]; ?>
+</body>
