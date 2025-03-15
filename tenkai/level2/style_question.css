@@ -27,6 +27,32 @@ ul li {
     padding-bottom: 10px;
 }
 
+.fomula {
+    margin: 0;
+}
+
+.subtitle_f {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(110, 105, 105, 0.3);
+    color: #000000;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.inside_f {
+    border: solid;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.explanation img {
+    width: 400px;
+}
+
 .questions {
     margin: 100px 0;
 }
@@ -57,7 +83,7 @@ ul li {
     margin-bottom: 50px;
     padding: 0;
     text-align: left;
-    
+
 }
 
 .hidden_box label {
@@ -175,7 +201,7 @@ details:hover {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    
+
 }
 
 .ba:hover {
@@ -253,4 +279,3 @@ footer {
     display: block;
     margin: 0;
 }
-
