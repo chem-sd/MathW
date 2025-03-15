@@ -75,6 +75,10 @@ ul li {
     padding: 0 10px;
 }
 
+.a li {
+    padding: 10px 0;
+}
+
 .hidden_box {
     margin-bottom: 50px;
     padding: 0;
