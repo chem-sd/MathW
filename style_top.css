@@ -109,7 +109,7 @@ summary {
 }
 
 .ask {
-    width: 50%;
+    width: 150%;
     margin: 30px auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -117,29 +117,9 @@ summary {
     background: #f9f9f9;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
-.ask input,
-.ask textarea {
-    width: 80%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
-.ask button {
-    display: block;
-    width: 80%;
-    margin-top: 15px;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 0.57);
-    color: #ffffff;
-    font-size: 16px;
-    cursor: pointer;
-}
-.ask button:hover {
-    background: #292929;
+
+.form {
+    width: 100%;
 }
 
 .contents > div {
