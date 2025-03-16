@@ -103,28 +103,13 @@
             </div>
 
             <div class="side">
-                <div class="index">
-                    <p>目次</p>
-                    <details>
-                        <summary>展開</summary>
-                        <a href="https://chem-sd.github.io/MathW/tenkai/fomula/" class="select">公式</a>
-                        <a href="https://chem-sd.github.io/MathW/tenkai/level1/" class="select">level 1</a>
-                        <a href="https://chem-sd.github.io/MathW/tenkai/level2/" class="select">level 2</a>
-                        <a href="https://chem-sd.github.io/MathW/tenkai/level3/" class="select">level 3</a>
-                        <a href="https://chem-sd.github.io/MathW/tenkai/level4/" class="select">level 4</a>
-                        <a href="https://chem-sd.github.io/MathW/tenkai/level5/" class="select">level 5</a>
-                        <a href="https://chem-sd.github.io/MathW/tenkai/level6/" class="select">level 6</a>
-                        <a href="https://chem-sd.github.io/MathW/tenkai/level7/" class="select bottom_select">level 7</a>
-                    </details>
-                    <details>
-                        <summary>因数分解</summary>
-                        <a href="https://chem-sd.github.io/MathW/insuubunkai/fomula/" class="select">公式</a>
-                        <a href="https://chem-sd.github.io/MathW/insuubunkai/level1/" class="select">level 1</a>
-                        <a href="https://chem-sd.github.io/MathW/insuubunkai/level2/" class="select">level 2</a>
-                        <a href="https://chem-sd.github.io/MathW/insuubunkai/level3/" class="select">level 3</a>
-                        <a href="https://chem-sd.github.io/MathW/insuubunkai/level4/" class="select">level 4</a>
-                        <a href="https://chem-sd.github.io/MathW/insuubunkai/level5/" class="select  bottom_select">level 5</a>
-                    </details>
+                <div class="index" id="menu">
+                    <script>
+                        fetch('https://chem-sd.github.io/MathW/menu.html')  // menu.html を取得
+                            .then(response => response.text())  // テキストとして取得
+                            .then(data => document.getElementById('menu').innerHTML = data)  // 指定の場所に挿入
+                            .catch(error => console.error('エラー:', error));  // エラー処理
+                    </script>
                 </div>
             </div>
         </div>
