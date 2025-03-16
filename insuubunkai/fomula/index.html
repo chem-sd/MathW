@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="ja">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Math W 展開(公式)</title>
+        <title>Math W 因数分解(公式)</title>
         <link rel="stylesheet" href="style_fomula.css">
         <link rel="icon" href="https://chem-sd.github.io/MathW/img/icon.png">
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -16,51 +17,48 @@
         </header>
         <div class="container">
             <div class="main">
-                <h1>展開(公式)</h1>
+                <h1>因数分解(公式)</h1>
                 <div class="contents">
                     <div class="top">
-                    <div class="explanation">
-                        <p>展開とは（）でまとめられたものをバラバラにする操作のことです．最も基本的な例は以下の式です．</p>
-                        <p>\begin{align} a(x+y)=ax+ay \end{align}</p>
-                        <p>展開のやり方は下のようにすべての数字や文字を掛けてあげます．ただし，同じ（）の中にあるものは掛けてはいけません．</p>
-                        <img src="https://chem-sd.github.io/MathW/img/img2.png">
-                        <p>これを応用したものが下の4つの公式になります．</p>
-                    </div>
+                        <div class="explanation">
+                            <p>因数分解は一言で言うと，展開の真逆の操作のことです．もう少し詳しく言うと，バラバラになっている式をかけ算の形に書き直してあげる操作のことです．</p>
+                            <p>\begin{align} ax+ay=a(x+y) \end{align}</p>
+                            <p>上の式では \( ax \) と \( bx \) の足し算になっているところを \( a \) と \( x+y \) のかけ算に直してあげました．このように足し算で書かれていたものを()でまとめられたもののかけ算に直してあげます．<br>
+                                ここで，上の式の場合 \( ax \) と \( bx \) に \( a \) という同じ文字が含まれていたので \( a \) を()の前に出しました．この操作のことを「 \( a \) でくくる」と言います．また，因数分解してできた \( a(x+y) \) のうちの \( a \) や \( x+y \) を「因数」と呼びます．<br>
+                                因数分解の公式は下の通りです．これを見れば展開の真逆だと分かると思います．</p>
+                        </div>
 
-                    <div class="fomula">
-                        <p class="subtitle_f">公式</p>
-                        <div class="inside_f a">
-                            <ul>
-                                <li>① \((x+y)(a+b)=xa+xb+ya+yb\)</li>
-                                <li>② \((x+a)(x+b)=x^2+(a+b)x+ab\)</li>
-                                <li>③ \((x+y)^2=x^2+2xy+y^2\)</li>
-                                <li>④ \((x-y)^2=x^2-2xy+y^2\)</li>
-                                <li>⑤ \((x+y)(x-y)=x^2-y^2\)</li>
-                            </ul>
+                        <div class="fomula">
+                            <p class="subtitle_f">公式</p>
+                            <div class="inside_f a">
+                                <ul>
+                                    <li>① \( ax+bx= x(a+b) \) </li>
+                                    <li>② \( x^2+(a+b)x+ab=(x+a)(x+b) \) </li>
+                                    <li>③ \( x^2+2xy+y^2=(x+y)^2 \)</li>
+                                    <li>④ \( x^2-2xy+y^2=(x-y)^2 \)</li>
+                                    <li>⑤ \( x^2-y^2=(x+y)(x-y) \)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="explanation">
+                            <p>やり方としては，まず①のパターンかどうか確認します．同じ文字や数字が含まれていたらそれでくくってあげましょう．それができたら②～⑤のパターンを考えましょう．<br>
+                                そうはいってもなかなか分かりにくいのでとりあえず公式を使ってみましょう．</p>
                         </div>
                     </div>
 
-                    <div class="explanation">
-                        <p>まずは，公式①を考えましょう．（）の数が増えても基本は変わりません．同じようにすべての数字や文字を掛けてあげます．具体的には下のように考えてあげます．</p>
-                        <img src="https://chem-sd.github.io/MathW/img/img1.png">
-                        <p>ただし，同じ（）の中身は掛けないように注意してください！<br>
-                            公式②～④は①の特別なバージョンに過ぎません．計算すれば上に書いてある形になります．自分で確かめてみてください．<br>
-                            では，この公式を使って見ましょう．</p>
-                    </div>
-                </div>
-                
-                
+
                     <div class="questions a">
                         <p class="subtitle">例題</p>
                         <div class="inside_q">
-                            <p>以下の式を展開してください．</p>
+                            <p>以下の式を因数分解してください．</p>
                             <ul>
-                                <li>(1) \(2(a+3)\)</li>
-                                <li>(2) \((x+1)(y+2)\)</li>
-                                <li>(3) \( (x+3)(x+2) \)</li>
-                                <li>(4) \((x+1)^2\)</li>
-                                <li>(5) \((x-3)^2\)</li>
-                                <li>(5) \((x+2)(x-2)\)</li>
+                                <li>(1) \( 2x+2y \)</li>
+                                <li>(2) \( x^2+5x+6 \)</li>
+                                <li>(3) \( x^2+4x+4 \)</li>
+                                <li>(4) \( x^2-6x+9 \)</li>
+                                <li>(5) \( x^2-1 \)</li>
+                                <li>(6) \( 2x^2+8x+8 \)</li>
                             </ul>
                         </div>
                     </div>
@@ -70,24 +68,26 @@
                         <label for="labelX">解答</label> <!-- Xを上記と同じ数字に変更 -->
                         <div class="hidden_show a">
                             <ul>
-                                <li>(1) \begin{align} 2(a+3)= \underline{2a+6} \end{align}</li>
-                                <li>(2) \begin{align} (x+1)(y+2) &= xy+x \times 2+1 \times y +1 \times 2 \\
-                                    &= \underline{xy+2x+y+2} \end{align}</li>
-                                <li>(3) \begin{align} (x+3)(x+2) &= x^2+(3+2)x+2 \times 3 \\
-                                    &= \underline{x^2+5x+6} \end{align}</li>
-                                <li>(4) \begin{align} (x+1)^2 &= x^2 + 2 \times 2 \times x + 2^2 \\
-                                    &= \underline{x^2+4x+4} \end{align}</li>
-                                <li>(5) \begin{align} (x-3)^2 &= x^2 - 2 \times 3 \times x + (-3)^2 \\
-                                    &= \underline{x^2-6x+9} \end{align}</li>
-                                <li>(6) \begin{align} (x+2)(x-2) &= x^2-2^2 \\
-                                    &= \underline{x^2-4} \end{align}</li>
+                                <li>(1) \begin{align} 2x+2y= \underline{2(x+y)} \end{align}</li>
+                                <li>(2) \begin{align} x^2+5x+6 &= x^2+(2+3)x+2 \times 3 \\
+                                    &= \underline{(x+2)(x+3)} \end{align}</li>
+                                <li>(3) \begin{align} x^2+4x+4 &= x^2+2 \times 2 \times x+2^2 \\
+                                    &= \underline{(x+2)^2} \end{align}</li>
+                                <li>(4) \begin{align} x^2-6x+9 &= x^2 - 2 \times 3 \times x + 3^2 \\
+                                    &= \underline{(x-3)^2} \end{align}</li>
+                                <li>(5) \begin{align} x^2-1 &= x^2 - 1^2 \\
+                                    &= \underline{(x+1)(x-1)} \end{align}</li>
+                                <li>(6) \begin{align} 2x^2+8x+8 &= 2(x^2+4x+4) \\
+                                    &= 2(x^2+2 \times 2 \times x+2^2) \\
+                                    &= \underline{x^2-4} \end{align} 
+                                    <p>2でくくると \( x^2+2 \times 2 \times x+2^2 \) ができました．これはさらに因数分解できるので，できるところまで因数分解しましょう．</p></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="main_bottom">
-                    <a href="" class="befor ba">前のページへ</a>
-                    <a href="https://chem-sd.github.io/MathW/tenkai/level1/" class="after ba">次のページへ</a>
+                    <a href="https://chem-sd.github.io/MathW/tenkai/level7/" class="befor ba">前のページへ</a>
+                    <a href="https://chem-sd.github.io/MathW/fomula/level1/" class="after ba">次のページへ</a>
                 </div>
 
             </div>
@@ -108,7 +108,7 @@
                     </details>
                     <details>
                         <summary>因数分解</summary>
-                        <a href="" class="select">公式</a>
+                        <a href="https://chem-sd.github.io/MathW/insuubunkai/fomula/" class="select">公式</a>
                         <a href="">level 1</a>
                         <a href="" class="select">level 2</a>
                         <a href="" class="select">level 3</a>
@@ -121,13 +121,13 @@
 
         <div class="foot">
             <div class="ask">
-                    <h2>お問い合わせ</h2>
-                    <iframe 
-                            src="https://docs.google.com/forms/d/e/1FAIpQLSeEkvzyS07vrImI55wU5pkmYa7_6PX4Lo7vxRwrNBFMvazgfQ/viewform?embedded=true" 
-                            height="800"
-                            title="Google フォーム - お問い合わせ"                                style="border: none;"
-                            class="form">
-                    </iframe>
+                <h2>お問い合わせ</h2>
+                <iframe 
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSeEkvzyS07vrImI55wU5pkmYa7_6PX4Lo7vxRwrNBFMvazgfQ/viewform?embedded=true" 
+                        height="800"
+                        title="Google フォーム - お問い合わせ"                                style="border: none;"
+                        class="form">
+                </iframe>
             </div>
         </div>
 
