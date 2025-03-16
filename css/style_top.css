@@ -1,0 +1,157 @@
+
+body {
+    font-family: "Avenir Next";
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    background-color: rgba(135, 217, 255, 0.51);
+    height: 60px;
+}
+
+header h1 {
+    margin: 0 0 0 20px;
+    line-height: 60px;
+}
+
+header a {
+    text-decoration: none;
+    color: #0a2a50;
+}
+
+
+.l1 {
+    float: left;
+    width: 20%;
+}
+
+ul li {
+    padding: 20px;
+}
+
+
+
+.detail {
+    display: block;
+    padding-bottom: 20px;
+}
+
+h2 {
+    display: inline-block;
+    border: 2px solid;
+    padding: 8px;
+    border-radius: 5px;
+    clear: both;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+.content:hover {
+    background-color: rgba(130, 130, 130, 0.09);
+}
+
+details {
+    cursor: pointer;
+    border: 1px solid #a3a3a3;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+summary {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgba(135, 217, 255, 0.3);
+    border-bottom: 1px solid #000000;
+}
+
+
+.content a {
+    display: inline-block;
+    padding: 4px;
+    color: black;
+}
+
+.content a:hover {
+    background-color: rgba(143, 225, 245, 0.31);
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.profile {
+    margin-bottom: 50px;
+}
+
+.contents {
+    margin-bottom: 150px;
+}
+
+.ask {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    width: 100%;
+}
+
+.contents > div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content {
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+}
+
+.icon {
+    width: 30px;
+    margin: 5px;
+}
+
+
+
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.78);
+    color: white;
+    padding: 25px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+}
